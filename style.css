@@ -4,15 +4,22 @@ body {
 }
 
 
-.navbar {
+/** HEADER **/
+
+#header-nav {
     background-color: #969696;
     border-radius: 0;
     border: 0;
 }
 
-
-.navbar button {
+#header-nav button {
     margin-top: 100px;
+}
+
+
+
+.navbar-collapse {
+    border-top: 0;
 }
 
 .navbar-brand, .navbar-nav li a {
@@ -20,7 +27,6 @@ body {
     height: 76px;
     padding-top: 0;
 }
-
 
 .navbar-brand h1 {
     color: #000000;
@@ -31,35 +37,30 @@ body {
 
 
 
-
-.nav {
+#nav-list {
     background-color: #ffffff;
 }
 
-
-.nav a {
+#nav-list a {
     font-weight: bolder;
     color: #000000;
     font-size: 1.2em;
     font-family: cursive;
 }
 
-
-.container {
+#main-content {
     width: 92%;
     margin-bottom: 30px;
 }
 
-.container h2 {
+#main-content h2 {
     font-size: 2.9em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-
-
-.container h3 {
+#main-content h3 {
     font-size: 1.6em;
     font-weight: bold;
     margin-bottom: 1em;
